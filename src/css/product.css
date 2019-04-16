@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+html,
+body {
+  height: 100%;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #f5f5f5;
+}
+/* 头部 */
+.head {
+  height: 2.002288rem;
+  padding: 0.343249rem;
+  position: relative;
+}
+/* 选择更多 */
+.select-more {
+  position: absolute;
+  right: 0.171625rem;
+  top: 2.459954rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333;
+  z-index: 999;
+}
+.select-more div {
+  width: 5.83524rem;
+  height: 2.002288rem;
+  padding: 0.343249rem 0;
+  color: #fff;
+  font-size: 0.743707rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headother {
+  background: #333;
+  color: #cccccc;
+  padding: 0 0.686499rem;
+  font-size: 0.800915rem !important;
+}
+/* 主题 */
+.main {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* 轮播图 */
+.banner {
+  /* margin-top: 2.28833rem; */
+  width: 100%;
+  height: 11.155606rem;
+}
+.img_item {
+  position: relative;
+}
+.img_item span {
+  width: 2.5rem;
+  height: 1.125rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #cccccc;
+  font-size: 0.625rem;
+  position: absolute;
+  right: 0.9375rem;
+  bottom: 0.625rem;
+  text-align: center;
+  line-height: 1.125rem;
+  z-index: 5;
+  border-radius: 0.125rem;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+/* 价格 */
+.game-info-simple {
+  background: #fff;
+  height: 4.8627rem;
+  width: 100%;
+  padding-top: 0.48627rem;
+  margin-bottom: 0.5rem;
+}
+.game-badge-container {
+  display: flex;
+  flex: 1;
+  box-orient: vertical;
+  flex-direction: column;
+  overflow: hidden;
+  padding-left: 0.9375rem;
+  width: 100%;
+}
+.game-info-title {
+  padding: 0;
+  font-size: 0.800915rem;
+  color: #000000;
+  font-weight: bold;
+  line-height: 1.3125rem;
+  display: flex;
+  box-orient: horizontal;
+  flex-direction: row;
+  align-items: center;
+}
+.game-info-alias {
+  font-size: 0.625rem;
+  color: #666;
+  overflow: hidden;
+  padding-top: 0.3125rem;
+}
+.game-info-price {
+  position: relative;
+  padding: 0.35rem 0rem 0.35rem 0.9375rem;
+  display: flex;
+  box-orient: horizontal;
+  flex-direction: row;
+  align-items: center;
+}
+.game-info-sale-price {
+  margin-bottom: 0;
+  color: #ff5722;
+  font-size: 1rem;
+}
+.game-info-sale-price span {
+  font-size: 0.9375rem;
+  font-weight: bold;
+  line-height: 1.125rem;
+}
+/* 评价 */
+.entrance-title {
+  color: rgb(51, 51, 51);
+  width: auto;
+  font-size: 0.686499rem !important;
+}
+.entrance-content {
+  max-width: 69%;
+  white-space: nowrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  font-size: 0.686499rem;
+  color: #333;
+  padding-left: 1.25rem;
+}
+.entrance-content a {
+  color: #0e90d2;
+  text-decoration: none;
+}
+.discount-tipp {
+  margin-left: 0.9375rem;
+  border: solid 0.0625rem #ff5722;
+  border-radius: 0.125rem;
+  color: #ff5722;
+  text-align: center;
+  font-size: 0.625rem;
+  margin-top: 0.125rem;
+  padding: 0rem 0.1875rem;
+  line-height: 0.75rem;
+}
+.sk-discount-font {
+  padding-top: 0.3rem;
+  margin-left: 0.9375rem;
+  font-size: 0.625rem;
+  color: #999;
+  text-decoration: line-through;
+}
+.evaluation-container {
+  width: 100%;
+  height: 1.94508rem;
+  background-color: white;
+  display: flex;
+  box-orient: horizontal;
+  flex-direction: row;
+  padding: 1.1875rem 0rem 1.125rem 0rem;
+  margin-bottom: 0.625rem;
+}
+.evaluation-list {
+  width: 33%;
+  height: 1.94508rem;
+  border-right: solid 0.0625rem #f5f5f5;
+  display: flex;
+  box-orient: vertical;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.num {
+  font-size: 1.258581rem;
+  color: #666;
+  line-height: 1.258581rem;
+}
+.word {
+  font-size: 0.549199rem;
+  color: #999;
+}
+/* 发售情况 */
+.product-info-entrance {
+  width: 100%;
+  height: 2.116705rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.686499rem;
+  padding: 0rem 0.9375rem;
+  box-sizing: border-box;
+  border-bottom: solid 0.0625rem #f5f5f5;
+}
+.iconfont {
+  font-size: 0.9rem;
+  line-height: 2.75rem;
+  color: #cccccc;
+  margin-left: auto;
+  font-family: "iconfont" !important;
+  font-style: normal;
+}
+.developer-skus-container {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 0.625rem 0rem 0rem 0rem;
+  margin-top: 0.625rem;
+}
+/* 相关游戏 */
+.developer-skus-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.3125rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+  margin-bottom: 0.625rem;
+}
+.title {
+  font-size: 0.9375rem;
+  color: black;
+  font-weight: bold;
+}
+.view-more {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: #999;
+}
+.sk-touch-group {
+  max-width: 100%;
+  margin-top: 0.25rem;
+  overflow: hidden;
+  position: relative;
+  height: 7.265446rem;
+}
+/* 游戏介绍 */
+.game-introduce-contianer {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2.574371rem;
+  background-color: white;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.625rem;
+  box-sizing: border-box;
+}
+.game-introduce-contianer .title {
+  font-size: 1.125rem;
+  color: black;
+  font-weight: bold;
+  line-height: 1.5625rem;
+}
+.game-introduce-contianer .content {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.game-introduce-contianer .content p {
+  font-size: 0.9375rem;
+  line-height: 1.3125rem;
+  color: #333;
+}
+.game-introduce-contianer .content ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+.game-introduce-contianer .content ul li {
+  width: 100%;
+}
+.game-introduce-contianer .content ul li img {
+  width: 100%;
+  height: 100%;
+}
+.lunbo {
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.store-item-card-container:first-child {
+  margin-left: 0.9375rem;
+}
+.store-item-card-container {
+  margin: 0rem 0rem 0.9375rem 0.625rem;
+  width: 9.375rem;
+}
+.store-item-card-container .card-img {
+  width: 7.265446rem;
+  height: 4.290618rem;
+  position: relative;
+}
+.store-item-card-container .card-img img {
+  width: 100%;
+  height: 100%;
+}
+.store-item-card-container .card-content {
+  display: flex;
+  flex-direction: column;
+}
+.store-item-card-container .card-content .title {
+  width: 100%;
+  font-size: 0.686499rem;
+  line-height: 1.125rem;
+  margin-top: 0.3125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
+}
+.store-item-card-container .card-content .price-content {
+  width: 100%;
+  height: 1.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.9375rem;
+  color: #ff5722;
+  font-weight: bold;
+  margin-top: 0.3125rem;
+}
+.store-item-card-container .card-content .price-content .discount {
+  border: solid 0.0625rem #ff5722;
+  border-radius: 0.125rem;
+  height: 0.875rem;
+  font-size: 0.625rem;
+  padding: 0rem 0.1875rem;
+  font-weight: normal;
+  line-height: 0.8rem;
+  margin-left: 0.375rem;
+}
+/* 底部购买栏 */
+.buy {
+  height: 2.574371rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
