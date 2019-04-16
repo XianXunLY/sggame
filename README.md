@@ -1,29 +1,40 @@
-# sonkwo
+# 彬果项目
 
-## Project setup
-```
-npm install
-```
+> 介绍：该项目是一个基于 Vue 的关于游戏商城的小平台，集游戏购买和在线讨论游戏攻略，查看游戏资讯一体的移动 app。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+##### 项目情况-运用技术
 
-### Compiles and minifies for production
-```
-npm run build
-```
+*后端语言：使用的是Nodejs+koa
 
-### Run your tests
-```
-npm run test
-```
+*数据库：使用的是MongoDB
 
-### Lints and fixes files
-```
-npm run lint
-```
+*UI框架：使用element-ui的移动端框架 Minit-UI
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+*登陆使用token进行加密、解密、验证
+
+*其他页面使用nodejs+koa和其他第三方插件
+
+
+
+##### 项目说明
+    * 项目名称：彬果
+    * app演示地址：http://106.15.199.30:5000
+    * 演示账号：用户名：sonkwo
+               密码：xiaoming
+
+### 完成情况-功能实现
+* 商品
+    * 数据渲染
+    * 链接跳转
+* 头条
+    * 数据渲染
+    * 链接跳转
+* 社区
+    * 数据渲染
+    * 链接跳转
+* 购物车页
+    * 数据渲染
+* 个人页
+    * 登陆
+    * 注册
+    * token验证
